@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.orange {
+    color: #FD8D5D;
+}
+
+.white {
+    color: white;
+}
+
+.bgRed {
+    background-color: red;
+}
+
+.bgOrange {
+    background-color: #FD8D5D;
+}
+
+.sinscrire {
+    color: #FD8D5D;
+    border-radius: 20px;
+    padding: 10px 24px;
+    border: solid #FD8D5D 1px;
+}
+
+.gap36 {
+    gap: 36px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+.bloc {
+    display: block;
+}
+
+.top20 {
+    margin-top: 20px;
+}
+
+.top30 {
+    margin-top: 30px;
+}
+
+.top50 {
+    margin-top: 50px;
+}
+
+.w20 {
+    width: 20%;
+}
+.w25 {
+    width: 25%;
+}
+
+.w30 {
+    width: 30%;
+}
+
+.w35 {
+    width: 35%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.logo {
+    width: 200px;
+}
+
+.border {
+    border-bottom: solid black 1px;
+}
+
+.padding {
+    padding: 30px;
+}
+
+
+.img {
+    background-color: #FFD8C7;
+    border-radius: 100px;
+    width: 32px;
+    height: 32px;
+}
+
+.card {
+    box-shadow: 20px;
+}
