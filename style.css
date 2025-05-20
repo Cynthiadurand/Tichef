@@ -249,9 +249,6 @@ a {
     margin-top: 16px;
 }
 
-
-
-
 /*--------------------------------------------------
 🧱Largeurs et colonnes
 ---------------------------------------------------*/
@@ -307,7 +304,9 @@ les resolutions d'ecrans d'apres un petit script sass*/
 .large-12 {
     width: calc(100% - 0 * var(--gap) / 1);
 }
-
+.left{
+    margin-left: 50%;
+}
 
 /* responsive tablette */
 @media all and (max-width: 900px) {
@@ -341,3 +340,10 @@ les resolutions d'ecrans d'apres un petit script sass*/
         width: 50%;
     }
 }
+
+.img-card {
+height: 200px;
+object-fit: cover;
+padding-right: 10px;
+border-radius: 20px;
+  }
