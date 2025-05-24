@@ -113,6 +113,10 @@ a {
     justify-content: center;
 }
 
+.gap{
+    gap: 32px;
+}
+
 .gap32 {
     --gap: 32px;
     gap: var(--gap);
